@@ -8,15 +8,18 @@ import {
   UserIcon,
   DotsCircleHorizontalIcon
 } from "@heroicons/react/outline"
-import Image from "next/image"
+
 
 
 export default function Sidebar() {
   return (
-    <div className="h-full hidden sm:flex flex-col fixed xl:ml-24">
-        <nav className="h-full relative xl:space-y-1.5">
+    <div className="h-full hidden sm:flex flex-col sm:ml-2 fixed xl:ml-24">
+        <nav className="h-full relative xl:space-y-1.5 ">
           <div className="flex justify-center xl:justify-start items-center py-3 xl:py-3">
-            <Image scr={"/assets/twitter-logo.png"} width={34} height={34}/>
+            <img
+              src="/assets/twitter-logo.png"
+              className="w-[34px] h-[34px]  object-cover"
+            />
           </div>
           <SidebarLink Icon={HomeIcon} text={"Home"} />
           <SidebarLink Icon={HashtagIcon} text={"Explore"} />
