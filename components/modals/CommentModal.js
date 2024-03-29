@@ -39,6 +39,8 @@ export default function CoomentModal() {
       comments: arrayUnion(commentDetails)
     })
 
+    dispatch(closeCommentModal())
+    router.push("/" + tweetDetails.id)
 
   }
 
