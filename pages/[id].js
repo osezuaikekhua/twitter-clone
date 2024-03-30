@@ -78,12 +78,12 @@ export default function CommentsPage({ tweetData }) {
 
                 <span className="text-2xl">{tweetData.text}</span>
 
-                {tweetData.image && (
-                  <img
-                    className="object-cover border border-gray-700 rounded-md mt-3 max-h-80"
+                {tweetData.image && 
+                  <img 
+                    className="object-cover rounded-md mt-3 max-h-80 " 
                     src={tweetData.image}
                   />
-                )}
+                }
               </div>
             </div>
           </div>
