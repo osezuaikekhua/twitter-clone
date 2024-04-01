@@ -1,8 +1,8 @@
 # Welcome ton Twitter Clone App!
 
 This app is a clone of Twitter. Upload tweets and images to show what's on your mind. View what others
-on the app are talking about, like their tweet, and give them a reply. The website is responsive and all 
-tweets and comments are saved to users. The comments are all server side render meaning good seo performance.
+on the app are talking about, like their tweet, and give them a reply. Using backend knowledge, all of the 
+user’s information, comments, posts, and likes are accessed & saved from a database
 
 website 👉 ( https://tweet-tweet.vercel.app/ )
 
