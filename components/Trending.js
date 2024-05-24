@@ -29,27 +29,27 @@ export default function Trending() {
         </div>
         <div className="p-3 relative">
           <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4" />
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold">China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending worldwide</p>
+          <h1 className="text-[15px] font-bold">International Cat Day</h1>
+          <p className="text-xs text-gray-500">21K Tweets</p>
         </div>
         <div className="p-3 relative">
           <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4" />
           <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold">China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <h1 className="text-[15px] font-bold">#BreakingNews</h1>
+          <p className="text-xs text-gray-500">250K Tweets</p>
         </div>
         <div className="p-3 relative">
           <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4" />
           <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold">China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <h1 className="text-[15px] font-bold">#GreatestOfAllTime</h1>
+          <p className="text-xs text-gray-500">101K Tweets</p>
         </div>
         <div className="p-3 relative">
           <DotsHorizontalIcon className="w-5 text-gray-600 absolute right-4" />
-          <p className="text-xs text-gray-500">Trending in US</p>
-          <h1 className="text-[15px] font-bold">China</h1>
-          <p className="text-xs text-gray-500">340K Tweets</p>
+          <p className="text-xs text-gray-500">Trending in worldwide</p>
+          <h1 className="text-[15px] font-bold">Spice Girl Tour</h1>
+          <p className="text-xs text-gray-500">53K Tweets</p>
         </div>
       </div>
 
@@ -60,14 +60,14 @@ export default function Trending() {
           <div className="flex space-x-3">
             <img
               className="w-11 h-11 object-cover rounded-full"
-              src="/assets/bragg.png"
+              src="/assets/pfp.png"
             />
             <div>
               <div className="flex space-x-1">
-                <h1 className="font-bold">David Bragg</h1>
+                <h1 className="font-bold">Elon Musk</h1>
                 <BadgeCheckIcon className="w-[18px] text-blue-400" />
               </div>
-              <h1 className="text-[12px] mt-1 text-gray-500">@davidbragg</h1>
+              <h1 className="text-[12px] mt-1 text-gray-500">@elonmusk</h1>
             </div>
           </div>
 
@@ -83,14 +83,14 @@ export default function Trending() {
           <div className="flex space-x-3">
             <img
               className="w-11 h-11 object-cover rounded-full"
-              src="/assets/bragg.png"
+              src="/assets/kylie.png"
             />
             <div>
               <div className="flex space-x-1">
-                <h1 className="font-bold">David Bragg</h1>
+                <h1 className="font-bold">Kylie Jenner</h1>
                 <BadgeCheckIcon className="w-[18px] text-blue-400" />
               </div>
-              <h1 className="text-[12px] mt-1 text-gray-500">@davidbragg</h1>
+              <h1 className="text-[12px] mt-1 text-gray-500">@kyliejenner</h1>
             </div>
           </div>
 

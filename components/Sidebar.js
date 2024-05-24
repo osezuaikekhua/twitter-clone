@@ -14,7 +14,7 @@ import {
 } from "@heroicons/react/outline"
 import { signOut } from "firebase/auth"
 import { useDispatch, useSelector } from "react-redux"
-
+import Link from "next/link"
 
 
 export default function Sidebar() {
@@ -38,7 +38,7 @@ export default function Sidebar() {
               className="w-[34px] h-[34px]  object-cover"
             />
           </div>
-          <SidebarLink Icon={HomeIcon} text={"Home"} />
+          <Link href="/"><SidebarLink Icon={HomeIcon} text={"Home"} /></Link>
           <SidebarLink Icon={HashtagIcon} text={"Explore"} />
           <SidebarLink Icon={BellIcon} text={"Notifications"} />            
           <SidebarLink Icon={InboxIcon} text={"Messages"} />
